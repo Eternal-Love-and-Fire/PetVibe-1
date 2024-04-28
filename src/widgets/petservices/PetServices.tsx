@@ -3,6 +3,9 @@ import {
   ReactCompareSlider,
   ReactCompareSliderImage,
 } from "react-compare-slider";
+import oldDogImg from "@/assets/haircut-old-dog.jpeg";
+import newDogImg from "@/assets/haircut-new-dog.jpeg.jpeg";
+
 const svg1 = (
   <svg
     className="fill-primary"
@@ -140,15 +143,12 @@ export const PetServices = () => {
             itemOne={
               <ReactCompareSliderImage
                 className=" grayscale"
-                src="https://github.com/Eternal-Love-and-Fire/PetVibe-1/blob/main/src/assets/haircut-old-dog.jpeg"
+                src={oldDogImg}
                 alt="old photo"
               />
             }
             itemTwo={
-              <ReactCompareSliderImage
-                src="https://github.com/Eternal-Love-and-Fire/PetVibe-1/blob/main/src/assets/haircut-new-dog.jpeg.jpeg"
-                alt="old photo"
-              />
+              <ReactCompareSliderImage src={newDogImg} alt="old photo" />
             }
           />
         </div>

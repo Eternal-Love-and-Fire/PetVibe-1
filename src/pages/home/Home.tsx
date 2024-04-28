@@ -5,14 +5,14 @@ import { ContactUs } from "@/widgets/contactus/ContactUs";
 import { Header } from "@/widgets/header/Header";
 import { PetServices } from "@/widgets/petservices/PetServices";
 import { Prices } from "@/widgets/prices/Prices";
+import bgImage from "@/assets/bg1.webp";
 
 export const Home = () => {
   return (
     <>
       <div className="overflow-hidden">
         <Header />
-        {/* <main className="h-[calc(100vh-88px)] w-full flex flex-col bg-[#29b6f6] dark:bg-[#00008B] bg-[url('src/assets/bg1.webp')] bg-cover bg-center bg-no-repeat"> */}
-        <main className="h-[calc(100vh-88px)] w-full flex flex-col bg-[#29b6f6] dark:bg-[#00008B] bg-[url('https://github.com/Eternal-Love-and-Fire/PetVibe-1/blob/main/src/assets/bg1.webp')] bg-cover bg-center bg-no-repeat">
+        <main className={`h-[calc(100vh-88px)] w-full flex flex-col bg-[#29b6f6] dark:bg-[#00008B] bg-[url(${bgImage})] bg-cover bg-center bg-no-repeat`}>
           <div className="w-full flex flex-col items-center justify-center my-auto">
             <h1 className="sm:text-9xl text-5xl font-bold">PetVibe</h1>
             <h3 className="text-white text-xl sm:w-2/5 w-4/5">
