@@ -4,7 +4,7 @@ import { RootDefault } from "./root/RootDefault";
 
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/PetVibe-1/",
     element: <RootDefault />,
     children: [
       {
