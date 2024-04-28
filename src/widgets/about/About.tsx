@@ -14,7 +14,7 @@ export const About = () => {
       </article>
       <article className="h-full flex-1 flex items-center justify-center overflow-hidden">
         <div className="">
-            <img src="src/assets/sitePiderasivEbanixBG.png" width={700} alt="" className="border-b-2 border-black dark:border-white" />
+            <img src="https://github.com/Eternal-Love-and-Fire/PetVibe-1/blob/main/src/assets/catAndDogAboutUs.png" width={700} alt="" className="border-b-2 border-black dark:border-white" />
         </div>
       </article>
     </section>

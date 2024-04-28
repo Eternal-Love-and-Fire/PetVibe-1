@@ -140,13 +140,13 @@ export const PetServices = () => {
             itemOne={
               <ReactCompareSliderImage
                 className=" grayscale"
-                src="src/assets/haircut-old-dog.jpeg"
+                src="https://github.com/Eternal-Love-and-Fire/PetVibe-1/blob/main/src/assets/haircut-old-dog.jpeg"
                 alt="old photo"
               />
             }
             itemTwo={
               <ReactCompareSliderImage
-                src="src/assets/haircut-new-dog.jpeg.jpeg"
+                src="https://github.com/Eternal-Love-and-Fire/PetVibe-1/blob/main/src/assets/haircut-new-dog.jpeg.jpeg"
                 alt="old photo"
               />
             }
