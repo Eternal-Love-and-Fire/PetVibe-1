@@ -8,7 +8,7 @@ export const router = createBrowserRouter([
     element: <RootDefault />,
     children: [
       {
-        path: "/",
+        path: "/PetVibe-1/",
         element: <Home />,
       },
     ],
