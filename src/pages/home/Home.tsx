@@ -11,7 +11,8 @@ export const Home = () => {
     <>
       <div className="overflow-hidden">
         <Header />
-        <main className="h-[calc(100vh-88px)] w-full flex flex-col bg-[#29b6f6] dark:bg-[#00008B] bg-[url('src/assets/bg1.webp')] bg-cover bg-center bg-no-repeat">
+        {/* <main className="h-[calc(100vh-88px)] w-full flex flex-col bg-[#29b6f6] dark:bg-[#00008B] bg-[url('src/assets/bg1.webp')] bg-cover bg-center bg-no-repeat"> */}
+        <main className="h-[calc(100vh-88px)] w-full flex flex-col bg-[#29b6f6] dark:bg-[#00008B] bg-[url('https://raw.githubusercontent.com/Eternal-Love-and-Fire/PetVibe-1/main/src/assets/bg1.webp')] bg-cover bg-center bg-no-repeat">
           <div className="w-full flex flex-col items-center justify-center my-auto">
             <h1 className="sm:text-9xl text-5xl font-bold">PetVibe</h1>
             <h3 className="text-white text-xl sm:w-2/5 w-4/5">
