@@ -3,7 +3,7 @@ import petVibeImg from "@/assets/petvibe.jpeg";
 
 export const Logo = () => {
   return (
-    <Link to={"/"} className="flex items-center gap-2">
+    <Link to={"/PetVibe-1/"} className="flex items-center gap-2">
       <img
         className="w-12 h-12 rounded-full"
         src={petVibeImg}

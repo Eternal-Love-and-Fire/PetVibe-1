@@ -9,10 +9,10 @@ export const Header = () => {
     <header className="w-full p-6 pb-4 flex justify-around items-center">
       <Logo />
       <nav className="w-6/12 hidden lg:flex justify-end gap-8 justify-self-center font-semibold tracking-wide">
-        <LinkCustom to="/#about" title="Про Нас" />
-        <LinkCustom to="#petservices" title="Послуги" />
-        <LinkCustom to="#prices" title="Ціни" />
-        <LinkCustom to="#contactus" title="Контакти" />
+        <LinkCustom to="/PetVibe-1/#about" title="Про Нас" />
+        <LinkCustom to="/PetVibe-1/#petservices" title="Послуги" />
+        <LinkCustom to="/PetVibe-1/#prices" title="Ціни" />
+        <LinkCustom to="/PetVibe-1/#contactus" title="Контакти" />
       </nav>
       <BurgerMenu />
       <ModeToggle />
