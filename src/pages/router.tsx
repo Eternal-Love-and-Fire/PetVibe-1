@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import { Home } from "./home/Home";
+// import { Home } from "./home/Home";
 import { RootDefault } from "./roots/RootDefault";
 import { Home as HomeV1 } from "@/V1/Home";
 
@@ -10,7 +10,7 @@ export const router = createBrowserRouter([
     children: [
       {
         path: "/PetVibe-1/",
-        element: <Home />,
+        element: <HomeV1 />,
       },
       {
         path: "/PetVibe-1/v1",
