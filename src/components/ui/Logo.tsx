@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import petVibeImg from "@/assets/petvibe.jpeg";
 import petVibeLogo from "@/assets/logo.png";
 
 export const Logo = () => {
