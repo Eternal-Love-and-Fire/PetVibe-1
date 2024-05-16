@@ -2,7 +2,7 @@ import catAndDogImage from "@/assets/catAndDogAboutUs.png";
 
 export const About = () => {
   return (
-    <section className="h-screen w-screen flex items-center sm:flex-row flex-col">
+    <section className="h-screen w-screenz flex items-center sm:flex-row flex-col">
       <article
         className="h-full flex-1 flex flex-col items-center justify-center"
         id="about"

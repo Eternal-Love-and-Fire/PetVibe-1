@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import { Home } from "./home/Home";
-import { RootDefault } from "./root/RootDefault";
+import { RootDefault } from "./roots/RootDefault";
+import { Home as HomeV1 } from "@/V1/Home";
 
 export const router = createBrowserRouter([
   {
@@ -10,6 +11,10 @@ export const router = createBrowserRouter([
       {
         path: "/PetVibe-1/",
         element: <Home />,
+      },
+      {
+        path: "/PetVibe-1/v1",
+        element: <HomeV1 />,
       },
     ],
   },

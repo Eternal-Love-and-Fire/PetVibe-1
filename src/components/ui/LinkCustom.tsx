@@ -8,7 +8,7 @@ export const LinkCustom: React.FC<LinkCustomModel> = ({ to, title }) => {
   return (
     <Link
       to={to}
-      className="border-b-2 border-b-transparent hover:border-white duration-300"
+      className="font-light border-b-2 border-b-transparent hover:border-black duration-300"
     >
       {title}
     </Link>

@@ -36,7 +36,7 @@ export const Bubbles = () => {
       bottom: -100vh;
       background: #f1f1f1;
       border-radius: 50%;
-      opacity: 0.5;
+      opacity: 1;
       animation: rise 10s infinite ease-in;
     }
     .bubble:nth-child(1) { width: 40px; height: 40px; right: 10%; animation-duration: 8s; }
