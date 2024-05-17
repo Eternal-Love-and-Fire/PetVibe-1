@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 export const AppointmentLink = () => {
   return (
-    <div className="w-16 h-16 fixed bottom-8 right-16 -ml-8 z-50 lg:hidden flex items-center justify-center rounded-full overflow-hidden hover:bg-zinc-600 duration-300">
+    <div className="w-16 h-16 fixed bottom-8 right-8 border border-black bg-cyan-200 -ml-8 z-50 lg:hidden flex items-center justify-center rounded-full overflow-hidden hover:bg-cyan-900 duration-300">
       <Link
-        className={`p-4 animate-pulse`}
+        className={`p-4 animate-pulse hover:text-5xl hover:scale-105`}
         to={`/`}
       >
         <svg
